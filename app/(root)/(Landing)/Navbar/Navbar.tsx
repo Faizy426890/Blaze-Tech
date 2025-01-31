@@ -32,7 +32,7 @@ export function Navbar() {
         </Link>
         <div className="hidden md:flex items-center space-x-8">
           <NavLink href="#services">Services</NavLink>
-          <NavLink href="#about">About</NavLink>
+          <NavLink href="/about">About</NavLink>
           <NavLink href="#contact">Contact</NavLink>
           <Button variant="outline" className="border-blue-500 text-blue-400 bg-transparent hover:bg-blue-500 hover:text-white">
             Get Started
